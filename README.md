@@ -1,8 +1,7 @@
-<p align="center">
+
 # Drupal Accessibility Quicksheet #
-  
-Maintained by Mike Gifford,  Drupal 8 Core Accessibility Maintainer
-</p>
+
+*Maintained by Mike Gifford,  Drupal 8 Core Accessibility Maintainer*
 
 ## How Does Drupal accessibility Work?
 - Drupal Core is leveraged by every module & theme on Drupal.org. The central APIs are critical in setting good standard defaults which are inherited by sites built with it. This does not mean that all modules or themes are equally accessible, as individual developers may overlook or turn off best practices that are defined in Core. It simply sets default states which can be either ignored or overridden by the maintainer of the code. 
@@ -14,16 +13,13 @@ Maintained by Mike Gifford,  Drupal 8 Core Accessibility Maintainer
 ## If You Have a Drupal Site and Want to Increase its Accessibility
 - Take a look at [these modules which may help improve your site's accessibility](https://www.drupal.org/node/394252) 
 - Review existing [Drupal Accessibility Best Practices guide](https://www.drupal.org/docs/7/accessibility/tools-and-best-practices)
-- Like every other site, take a look at it with automated tools like [Tenon](https://tenon.io/) & [WAVE](http://wave.webaim.org/). Do keyboard only testing. It is most likely, that if you find an accessibility error, it wasn't there in the source code. This definitely isn't always the case though. If you find an error that you think is in a Drupal module or theme ...
-  ... report it in the appropriate project issue queue. 
+- Like every other site, take a look at it with automated tools like [Tenon](https://tenon.io/) & [WAVE](http://wave.webaim.org/). Do keyboard only testing. It is most likely, that if you find an accessibility error, it wasn't there in the source code. This definitely isn't always the case though. If you find an error that you think is in a Drupal module or theme ... report it in the appropriate project issue queue. 
 You can even test it out modules & themes in a vanilla testing environment on https://simplytest.me if you want to be sure. 
 
 ## If you Want to Contribute to Drupal Accessibility
 - Make sure you have an account on Drupal.org so that you can post issues and contribute to nudging ahead issues you care about.
-- Join the [Accessibility Channel on Drupal Slack Group](https://www.drupal.org/slack) 
-  - it is a great community of folks who can help.
-- Look to see if you can contribute to issues in the [accessibility issue queue](https://www.drupal.org/project/issues/search?issue_tags=accessibility) 
-  - there are lots of issues, and many of them need to be tested to verify that the patch provided fixes the problem described. 
+- Join the [Accessibility Channel on Drupal Slack Group](https://www.drupal.org/slack) - it is a great community of folks who can help.
+- Look to see if you can contribute to issues in the [accessibility issue queue](https://www.drupal.org/project/issues/search?issue_tags=accessibility) - there are lots of issues, and many of them need to be tested to verify that the patch provided fixes the problem described. 
 - If you've found a way to make your site more accessible, see if you can't find some way to contribute that back to the community. Maybe you have a great module which helps to evaluate Alt Text to integrate with a machine learning algorithm to get rid of garbage text. Every user has access to a sandbox where they can share code, but you can also simply share it on GitHub and tell folks about it on the Slack Channel above. 
 
 ### Requests from the Drupal Accessibility Team ###
