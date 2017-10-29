@@ -1,6 +1,8 @@
-# Drupal Accessibility Quicksheet
-
-<p align="center">Maintained by Mike Gifford,  Drupal 8 Core Accessibility Maintainer</p>
+<p align="center">
+# Drupal Accessibility Quicksheet #
+  
+Maintained by Mike Gifford,  Drupal 8 Core Accessibility Maintainer
+</p>
 
 ## How Does Drupal accessibility Work?
 - Drupal Core is leveraged by every module & theme on Drupal.org. The central APIs are critical in setting good standard defaults which are inherited by sites built with it. This does not mean that all modules or themes are equally accessible, as individual developers may overlook or turn off best practices that are defined in Core. It simply sets default states which can be either ignored or overridden by the maintainer of the code. 
@@ -30,3 +32,5 @@ You can even test it out modules & themes in a vanilla testing environment on ht
 - We need more testers. We particularly want users who can test with Dragon Naturally Speaking. Aural interfaces are going to be particularly important for websites, but the Drupal Community does not have a lot of experience building aurally pleasing interfaces. 
 - We use Drupal.announce() in Drupal Core, but we need to use it a lot more. Modules & themes in Contrib both need better use of this JavaScript class to consistently integrate aria-live implementations. 
 - We don't know what we don't know. Please tell us what we are missing.
+
+See [Challenges section of the GPII DeveloperSpace](https://ds.gpii.net/challenges) for more information on these challenges
