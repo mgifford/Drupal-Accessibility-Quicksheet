@@ -14,6 +14,7 @@
 - For D8 sites, take a look at [these contributed modules which may help extend your site's accessibility](https://www.drupal.org/node/2913360) 
 - For D7 sites, take a look at [these contributed modules which may help extend your site's accessibility](https://www.drupal.org/node/394252) 
 - Review existing [Drupal Accessibility Best Practices guide](https://www.drupal.org/docs/7/accessibility/tools-and-best-practices)
+- Review this document to learn how to [hide content properly](https://www.drupal.org/docs/8/accessibility/hide-content-properly)
 - Like every other site, take a look at it with automated tools like [Tenon](https://tenon.io/) & [WAVE](http://wave.webaim.org/). Do keyboard only testing. It is most likely, that if you find an accessibility error, it wasn't there in the source code. This definitely isn't always the case though. If you find an error that you think is in a Drupal module or theme ... report it in the appropriate project issue queue. 
 You can even test it out modules & themes in a vanilla testing environment on https://simplytest.me if you want to be sure. 
 
